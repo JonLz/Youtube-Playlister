@@ -18,6 +18,11 @@ gem 'guard-spork'
 gem 'spork', '0.9.2'
 end
 
+group :development do
+  gem "better_errors"
+  gem "binding_of_caller"
+end
+
 group :test do
   gem 'capybara', '1.1.2'
   gem 'factory_girl_rails', '1.4.0'
